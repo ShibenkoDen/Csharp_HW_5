@@ -43,4 +43,4 @@ void showArray(int[] array)
 int[] array = CreateNewArray(5, -10, 10);
 int res = findSumOfOddIndexNumbers(array);
 showArray(array);
-Console.WriteLine(res);
+Console.WriteLine($"Сумма элементов, стоящих на нечетных позициях равна {res}");

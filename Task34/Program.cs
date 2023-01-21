@@ -45,4 +45,4 @@ void showArray(int[] array)
 int[] array = CreateNewArray(5, 100, 999);
 showArray(array);
 int countOfEvenNumbers = findCountOfEvenNumbers(array);
-Console.WriteLine(countOfEvenNumbers);
+Console.WriteLine($"Количество четных числе в массиве равно {countOfEvenNumbers}");
